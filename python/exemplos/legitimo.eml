@@ -1,0 +1,41 @@
+Received: from mail.empresa-exemplo.com.br (mail.empresa-exemplo.com.br
+ [198.51.100.25]) by mx.destino-exemplo.com.br with ESMTPS; Fri, 23 Oct 2026
+ 09:30:10 -0300
+Authentication-Results: mx.destino-exemplo.com.br; spf=pass
+ smtp.mailfrom=empresa-exemplo.com.br; dkim=pass
+ header.d=empresa-exemplo.com.br; dmarc=pass
+ header.from=empresa-exemplo.com.br
+Return-Path: <marina.souza@empresa-exemplo.com.br>
+From: "Marina Souza" <marina.souza@empresa-exemplo.com.br>
+To: kacy@destino-exemplo.com.br
+Subject: =?utf-8?q?Reuni=C3=A3o_de_alinhamento_amanh=C3=A3_=C3=A0s?= 10h
+Date: Fri, 23 Oct 2026 09:30:00 -0300
+Message-ID: <20261023093000.1234@mail.empresa-exemplo.com.br>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============4469557126133657772=="
+
+--===============4469557126133657772==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Oi, tudo bem?
+
+S=C3=B3 para lembrar da reuni=C3=A3o de alinhamento amanh=C3=A3 =C3=A0s 10h. =
+A pauta est=C3=A1 na agenda do time:
+https://empresa-exemplo.com.br/agenda
+
+Abra=C3=A7o,
+Marina
+
+--===============4469557126133657772==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body><p>Oi, tudo bem?</p><p>S=C3=B3 para lembrar da reuni=C3=A3o de al=
+inhamento amanh=C3=A3 =C3=A0s 10h. A pauta est=C3=A1 na <a href=3D"https://em=
+presa-exemplo.com.br/agenda">empresa-exemplo.com.br/agenda</a>.</p><p>Abra=C3=
+=A7o,<br>Marina</p></body></html>
+
+--===============4469557126133657772==--

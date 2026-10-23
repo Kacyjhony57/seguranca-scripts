@@ -7,6 +7,7 @@ Coleção de scripts que escrevi durante meus estudos de Segurança da Informaç
 | Script | Linguagem | O que faz |
 |---|---|---|
 | [`python/analisador_logs_ssh.py`](python/analisador_logs_ssh.py) | Python | Analisa `auth.log` e aponta IPs com tentativas de força bruta em SSH e logins bem-sucedidos após várias falhas |
+| [`python/analisador_phishing.py`](python/analisador_phishing.py) | Python | Triagem de e-mail suspeito (.eml): SPF/DKIM/DMARC, domínios divergentes, links enganosos, anexos perigosos, hashes e IOCs "defanged" |
 | [`python/verificador_portas.py`](python/verificador_portas.py) | Python | Verificador de portas TCP abertas (TCP connect) com recusa automática de alvos fora de rede privada |
 | [`powershell/Auditoria-AD.ps1`](powershell/Auditoria-AD.ps1) | PowerShell | Relatório de AD: contas inativas, senhas que nunca expiram e membros de grupos privilegiados |
 | [`bash/auditoria_linux.sh`](bash/auditoria_linux.sh) | Bash | Checklist de hardening básico em Linux: UID 0, senhas vazias, SSH, portas, permissões e atualizações |
@@ -17,6 +18,10 @@ Coleção de scripts que escrevi durante meus estudos de Segurança da Informaç
 ```bash
 # Analisador de logs SSH (há um log de exemplo para testar)
 python3 python/analisador_logs_ssh.py python/exemplos/auth.log.exemplo --limite 3
+
+# Triagem de e-mail suspeito (há um phishing e um e-mail legítimo fictícios para testar)
+python3 python/analisador_phishing.py python/exemplos/phishing.eml
+python3 python/analisador_phishing.py python/exemplos/legitimo.eml
 
 # Verificador de portas na própria máquina
 python3 python/verificador_portas.py 127.0.0.1 --portas 1-1024

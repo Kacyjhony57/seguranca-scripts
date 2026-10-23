@@ -1,0 +1,57 @@
+Received: from mail-gw.destino-exemplo.com.br (mail-gw.destino-exemplo.com.br
+ [198.51.100.10]) by mx.destino-exemplo.com.br with ESMTPS; Fri, 23 Oct 2026
+ 08:12:05 -0300
+Received: from srv-envio.mailer-xyz.top (unknown [203.0.113.50]) by
+ mail-gw.destino-exemplo.com.br with SMTP; Fri, 23 Oct 2026 08:12:01 -0300
+Authentication-Results: mx.destino-exemplo.com.br; spf=fail
+ smtp.mailfrom=mailer-xyz.top; dkim=none; dmarc=fail
+ header.from=bancoexemplo-seguranca.com
+Return-Path: <bounce@mailer-xyz.top>
+From: "Suporte Banco Exemplo" <suporte@bancoexemplo-seguranca.com>
+To: cliente@destino-exemplo.com.br
+Reply-To: atendimento.urgente@outlook-exemplo.net
+Subject: URGENTE: sua conta foi bloqueada - verifique agora
+Date: Fri, 23 Oct 2026 08:11:58 -0300
+Message-ID: <a1b2c3d4@srv-envio.mailer-xyz.top>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============5262051606624954719=="
+
+--===============5262051606624954719==
+Content-Type: multipart/alternative;
+ boundary="===============7740671697475602023=="
+
+--===============7740671697475602023==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Prezado cliente,
+
+Sua conta foi bloqueada por atividade suspeita. Confirme seus dados imediatam=
+ente para evitar o cancelamento:
+http://203.0.113.77/login.php
+
+Banco Exemplo - Seguran=C3=A7a
+
+--===============7740671697475602023==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body><p>Prezado cliente,</p><p>Sua conta foi <b>bloqueada</b> por ativ=
+idade suspeita. Acesse agora:</p><p><a href=3D"http://203.0.113.77/login.php"=
+>https://www.bancoexemplo.com.br/acesso</a></p><p>Ou, se preferir: <a href=3D=
+"https://bit.ly/3xAmpl3">clique aqui</a></p><p>Banco Exemplo - Seguran=C3=A7a=
+</p></body></html>
+
+--===============7740671697475602023==--
+
+--===============5262051606624954719==
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="fatura_outubro.pdf.exe"
+MIME-Version: 1.0
+
+QVJRVUlWTyBERSBFWEVNUExPIC0gY29udGV1ZG8gaW5vZmVuc2l2bywgYXBlbmFzIHBhcmEgdGVz
+dGVzIGRvIGFuYWxpc2Fkb3IuCg==
+
+--===============5262051606624954719==--
